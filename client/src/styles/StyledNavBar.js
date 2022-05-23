@@ -2,7 +2,8 @@ import styled from 'styled-components/macro';
 
 const StyledNavBar = styled.nav`
   display: flex;
-  height: 10vh;
+  height: 67%;
+  ${'' /* height: 10vh; */}
 
   ${'' /* overflow: hidden;
   position: fixed;

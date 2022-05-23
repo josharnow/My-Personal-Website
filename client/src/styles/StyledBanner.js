@@ -11,7 +11,8 @@ const StyledBanner = styled.div`
   border-width: 3px;
   background-color: var(--yellow);
   ${'' /* border-radius: 5vh; */}
-  ${'' /* height: 25%; */}
+  height: 33%;
+  ${'' /* height: 6vh; */}
   ${'' /* padding: 2vh; */}
 `;
 export default StyledBanner;

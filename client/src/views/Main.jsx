@@ -8,11 +8,11 @@ export default function Main() {
 
   return (
     <>
-      <div className='' style={{ "overflow": "hidden", "position": "fixed", "top": "0" }}>
+      <div className='' style={{ "overflow": "hidden", "position": "fixed", "top": "0", "height": "16vh" }}>
         <NavBar />
         <Banner />
       </div>
-      <main className='d-flex' style={{ "width": "100%", "height": "83vh", "marginTop": "15vh" }}>
+      <main className='d-flex' style={{ "width": "100%", "height": "84vh", "marginTop": "16vh" }}>
         <SideBar />
         <Welcome />
         {/* <About /> */}
