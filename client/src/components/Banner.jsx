@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { StyledNavBar, StyledNavButton, StyledNavDiv } from '../styles';
+import { StyledBanner } from '../styles';
 
 // import { accessToken } from '../spotify';
 // import { useParams } from 'react-router-dom';
@@ -14,7 +14,7 @@ import { StyledNavBar, StyledNavButton, StyledNavDiv } from '../styles';
 //   CreatePlaylistButton
 // } from './buttons';
 
-const NavBar = () => {
+const Banner = () => {
   // const [token, setToken] = useState(null);
   // const [artists, setArtists] = useState(null);
   // const [tracks, setTracks] = useState(null);
@@ -29,23 +29,10 @@ const NavBar = () => {
   // }
 
   return (
-    <StyledNavBar>
-      <h1 style={{ "margin": "0", "padding": "0", "resize": "none", "textAlign": "center", "width": "25vw", "alignSelf": "center", "fontSize": "2vw" }}>Josh Arnow's Personal Site</h1>
-      <StyledNavDiv>
-        <StyledNavButton>
-          Home
-        </StyledNavButton>
-        <StyledNavButton>
-          About
-        </StyledNavButton>
-        <StyledNavButton>
-          Portfolio
-        </StyledNavButton>
-        <StyledNavButton>
-          Contact Me
-        </StyledNavButton>
-      </StyledNavDiv>
-    </StyledNavBar>
+    <StyledBanner>
+      {/* <h1 style={ { "margin": "1vw", "width": "fit-content" } }>I am currently seeking employment!</h1> */}
+        <h3 style={ { "color": "#1f00eb", "textAlign": "center", "fontWeight": "bold", "margin": "0", "alignSelf": "center", "fontSize": "2vw" }}>Currently seeking full-time employment as a software engineer; please contact me to inquire!</h3>
+    </StyledBanner>
   );
 };
-export default NavBar;
+export default Banner;

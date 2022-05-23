@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Routes, Route, useLocation, useParams } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { GlobalStyle } from './styles';
 import './App.css';
 import Main from './views/Main';
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      {/* <GlobalStyle /> This will set the styles defined in GlobalStyle globally */ } 
+      <GlobalStyle />
       <ScrollToTop />
 
       <Routes>

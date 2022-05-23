@@ -1,6 +1,20 @@
 import styled from 'styled-components/macro';
 
-const StyledWelcome = styled.div`
+const StyledSection = styled.section`
+  ${'' /* padding: 4em; */}
+  ${'' /* width: fit-content; */}
+  margin: 0;
+
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.50);
+  ${'' /* box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%); */}
+  background-color: rgb(154 162 245 / 60%);
+
+  ${'' /* background: papayawhip; */}
   ${'' /* position: absolute;
   top: 0;
   right: var(--spacing-md);
@@ -34,4 +48,4 @@ const StyledWelcome = styled.div`
     padding: var(--spacing-xs) var(--spacing-xl) var(--spacing-xs) var(--spacing-sm);
   } */}
 `;
-export default StyledWelcome;
+export default StyledSection;

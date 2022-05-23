@@ -1,17 +1,23 @@
 import NavBar from '../components/NavBar';
 import Welcome from '../components/Welcome';
-import About from '../components/About';
+import Banner from '../components/Banner';
+import SideBar from '../components/SideBar';
+// import About from '../components/About';
 
-function Main() {
+export default function Main() {
 
   return (
     <>
-      <NavBar />
-      <main className='bg-black'>
+      <div className='' style={{ "overflow": "hidden", "position": "fixed", "top": "0" }}>
+        <NavBar />
+        <Banner />
+      </div>
+      <main className='d-flex' style={{ "width": "100%", "height": "83vh", "marginTop": "15vh" }}>
+        <SideBar />
         <Welcome />
-        <About />
+        {/* <About /> */}
       </main>
     </>
   )
 }
-export default Main;
+// export default Main;
