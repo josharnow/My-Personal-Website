@@ -9,6 +9,12 @@ const StyledNavButton = styled.button`
   font-family: var(--font);
   background-color: #292929;
   color: #fcfcfc;
+  height: 100%;
+
+  &:hover {
+    background: #ddd;
+    color: black;
+  }
 
   ${'' /* position: absolute;
   top: 0;

@@ -30,7 +30,7 @@ const NavBar = () => {
 
   return (
     <StyledNavBar>
-      <h1 style={{ "margin": "0", "padding": "0", "resize": "none", "textAlign": "center", "width": "25vw", "alignSelf": "center", "fontSize": "2vw" }}>Josh Arnow's Personal Site</h1>
+      <h1 style={{ "margin": "0", "padding": "0", "textAlign": "center", "width": "25vw", "alignSelf": "center", "fontSize": "4vw" }}>Josh Arnow</h1>
       <StyledNavDiv>
         <StyledNavButton>
           Home

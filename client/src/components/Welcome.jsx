@@ -12,8 +12,6 @@ const Welcome = () => {
         </StyledSection>
       </StyledBox>
     </div>
-
-
   );
 };
 export default Welcome;

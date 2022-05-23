@@ -3,6 +3,16 @@ import styled from 'styled-components/macro';
 const StyledNavBar = styled.nav`
   display: flex;
   height: 67%;
+
+  a {
+    color: white;
+    background-color: #292929;
+    &:hover {
+      background: #ddd;
+      color: black;
+    }
+  }
+
   ${'' /* height: 10vh; */}
 
   ${'' /* overflow: hidden;
