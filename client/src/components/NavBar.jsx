@@ -1,36 +1,24 @@
 import { useEffect, useState } from 'react';
 import { StyledNavBar, StyledNavButton, StyledNavDiv } from '../styles';
+import styled from 'styled-components/macro';
 
-// import { accessToken } from '../spotify';
-// import { useParams } from 'react-router-dom';
-// import {
-//   LoginButton,
-//   LogoutButton,
-//   ProfileButton,
-//   HomeButton,
-//   TopArtistsButton,
-//   TopTracksButton,
-//   PlaylistsButton,
-//   CreatePlaylistButton
-// } from './buttons';
+const StyledHeading = styled.h1`
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 25vw;
+  align-self: center;
+  font-size: 4vw;
+`;
 
 const NavBar = () => {
-  // const [token, setToken] = useState(null);
-  // const [artists, setArtists] = useState(null);
-  // const [tracks, setTracks] = useState(null);
-
-  // useEffect(() => {
-  //   setToken(accessToken); // Sets token to the accessToken variable imported from the spotify.js file
-  // }, []);
-
-  // const handleCallback = (childArtists, childTracks) => {
-  //   setArtists(childArtists);
-  //   setTracks(childTracks);
-  // }
 
   return (
     <StyledNavBar>
-      <h1 style={{ "margin": "0", "padding": "0", "textAlign": "center", "width": "25vw", "alignSelf": "center", "fontSize": "4vw" }}>Josh Arnow</h1>
+      <StyledHeading>
+        Josh Arnow
+      </StyledHeading>
+
       <StyledNavDiv>
         <StyledNavButton>
           Home
