@@ -5,11 +5,15 @@ const StyledNavButton = styled.button`
   ${variables};
   
   align-self: center;
-  padding: 2vh;
+  padding: 2vw;
+  ${'' /* margin: 1vh 1vw 1vh 1vw; */}
   font-family: var(--font);
   background-color: #292929;
   color: #fcfcfc;
   height: 100%;
+  width: fit-content;
+  ${'' /* height: 100%; */}
+  ${'' /* height: fit-content; */}
 
   &:hover {
     background: #ddd;

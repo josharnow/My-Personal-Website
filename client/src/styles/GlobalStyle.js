@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
   ${fonts};
   ${variables};
 
-  ${'' /* html {
+  html {
     box-sizing: border-box;
   }
 
@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
   *:before,
   *:after {
     box-sizing: inherit;
-  } */}
+  }
 
   body {
     height: 100%;

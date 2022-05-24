@@ -6,10 +6,11 @@ import SideBar from '../components/SideBar';
 // import About from '../components/About';
 
 const StyledDiv = styled.div`
-  overflow: hidden;
+  ${'' /* overflow: hidden;
   position: fixed;
   top: 0;
-  height: 16vh;
+  height: 16vh; */}
+  ${'' /* height: 20vh; */}
 `;
 
 const StyledMain = styled.main`
