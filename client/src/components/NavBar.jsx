@@ -7,32 +7,51 @@ const StyledFullHeader = styled.div`
   position: fixed;
   top: 0;
   height: 10vh;
+  width: 100vw;
+`;
+
+const StyledHeadingDiv = styled.div`
+  ${'' /* position: fixed; */}
+  ${'' /* top: 0; */}
+  ${'' /* height: 10vh; */}
+
+  display: flex;
+  width: 25vw;
+  height: 100%;
+  justify-content: center;
+  ${'' /* align-items: center; */}
+  ${'' /* align-content: center; */}
 `;
 
 const StyledHeading = styled.h1`
-  margin: 0 0.5vw;
-  padding: 0;
+  width: 100%;
+  max-width: 25vw;
+  max-height: 10vw;
+  font-size: 4.0vmin;
   text-align: center;
-  ${'' /* width: 25vw; */}
-  ${'' /* height: 100%; */}
-  ${'' /* height: 10vh; */}
   align-self: center;
-  font-size: 4vmin;
-  ${'' /* font-size: 4vw; */}
-  ${'' /* height: 100%; */}
-  ${'' /* max-height: 10vh; */}
-  ${'' /* max-width: 25vh; */}
+  margin: 0;
+
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+  font-family: 'Montserrat', sans-serif;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #282828;
+  text-shadow:
+    0.16vw 0.16vh #345beb,
+    0.32vw 0.32vh #000000;
 `;
 
 const NavBar = () => {
 
   return (
     <StyledFullHeader>
+    <StyledHeadingDiv>
       <StyledHeading>
-        <StyledPopText>
           Josh's Personal Site
-        </StyledPopText>
       </StyledHeading>
+    </StyledHeadingDiv>
       <StyledNavBar>
         <StyledNavDiv>
           <StyledNavButton>

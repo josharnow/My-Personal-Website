@@ -5,6 +5,9 @@ const StyledNavBar = styled.nav`
   ${'' /* height: 10vh; */}
   height: 100%;
 
+  ${'' /* position: fixed
+  margin-left: 25vw; */}
+
   ${'' /* a {
     color: white;
     background-color: #292929;
