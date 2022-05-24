@@ -11,6 +11,7 @@ export { default as StyledBanner } from './StyledBanner';
 export { default as StyledBox } from './StyledBox';
 export { default as StyledContact } from './StyledContact';
 export { default as StyledGradientTextWrapper } from './StyledGradientTextWrapper';
+export { default as StyledMain } from './StyledMain';
 export { default as StyledMultilayerText } from './StyledMultilayerText';
 export { default as StyledNavBar } from './StyledNavBar';
 export { default as StyledNavButton } from './StyledNavButton';

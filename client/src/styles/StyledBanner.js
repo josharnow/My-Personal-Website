@@ -5,7 +5,12 @@ const StyledBanner = styled.div`
   ${variables};
 
   display: flex;
-  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 5vh;
+  top: 10vh;
+  ${'' /* top: 10vh; */}
   border-style: dashed;
   border-color: #eb1000;
   border-width: 3px;
@@ -15,8 +20,5 @@ const StyledBanner = styled.div`
   ${'' /* height: 100%; */}
   ${'' /* height: 6vh; */}
   ${'' /* padding: 2vh; */}
-  width: 100%;
-  position: fixed;
-  top: 10vh;
 `;
 export default StyledBanner;

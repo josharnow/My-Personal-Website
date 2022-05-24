@@ -4,6 +4,7 @@ import Welcome from '../components/Welcome';
 import Banner from '../components/Banner';
 import SideBar from '../components/SideBar';
 // import About from '../components/About';
+import { StyledMain } from '../styles';
 
 const StyledDiv = styled.div`
   ${'' /* overflow: hidden;
@@ -13,12 +14,6 @@ const StyledDiv = styled.div`
   ${'' /* height: 20vh; */}
 `;
 
-const StyledMain = styled.main`
-  display: flex;
-  width: 100%;
-  height: 84vh;
-  margin-top: 16vh;
-`;
 
 export default function Main() {
 
