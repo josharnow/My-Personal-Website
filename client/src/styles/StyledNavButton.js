@@ -5,7 +5,7 @@ const StyledNavButton = styled.button`
   ${variables};
   
   align-self: center;
-  padding: 2vw;
+  ${'' /* padding: 2vw; */}
   ${'' /* margin: 1vh 1vw 1vh 1vw; */}
   font-family: var(--font);
   background-color: #292929;

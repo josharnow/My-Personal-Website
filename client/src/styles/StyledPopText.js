@@ -20,7 +20,7 @@ const StyledPopText = styled.span`
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: --dark-grey;
   text-shadow: 
-    0.2vw 0.2vh #345beb,
+    0.15vw 0.15vh #345beb,
     0.3vw 0.3vh #000000;
 `;
 export default StyledPopText;

@@ -4,6 +4,8 @@ const StyledNavDiv = styled.div`
   display: flex;
   justify-content: space-around;
   width: 75vw;
+  ${'' /* height: 10vh; */}
+  ${'' /* height: 100% */}
   ${'' /* margin: 0; */}
   ${'' /* right: 0; */}
   ${'' /* padding: 0; */}
