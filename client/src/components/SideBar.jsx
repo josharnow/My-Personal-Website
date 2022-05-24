@@ -2,6 +2,7 @@
 import { StyledSideBar, StyledBox, StyledGradientTextWrapper, StyledMultilayerText, StyledPopText, StyledSection } from '../styles';
 import styled from 'styled-components/macro';
 import headshot from '../headshot.jpg';
+import MapIcon from '@mui/icons-material/Map';
 
 const StyledName = styled.h1`
   margin: 2vh 0;
@@ -20,9 +21,10 @@ const StyledTitle = styled.h2`
 `;
 
 const StyledCategory = styled.h2`
-  font-size: 2.25vmin;
-  margin: 2vh 0;
-  text-decoration: wavy underline overline 1px #b22234;
+  font-size: 2.0vw;
+  ${'' /* margin: 1vh 0; */}
+  text-decoration: wavy underline 1px #b22234;
+  ${'' /* text-decoration: wavy underline overline 1px #b22234; */}
   font-weight: bold;
 `;
 
@@ -78,6 +80,22 @@ const CustomStyledGradientTextWrapper = styled.div`
   text-align: center;
 `;
 
+const StyledIframe = styled.iframe`
+  filter: opacity(0.7);
+  ${'' /* padding: 1vw; */}
+  margin: 0 0 1vh 0;
+  width: 90%;
+  height: 17vmin;
+  border-radius: 20px;
+  align-self: center;
+`;
+
+const StyledTextContent = styled.h3`
+  font-size: 1.5vw;
+  align-self: center;
+  margin: 0;
+`;
+
 const SideBar = () => {
 
   return (
@@ -102,9 +120,18 @@ const SideBar = () => {
 
             <CustomStyledGradientTextWrapper>
               <StyledCategory>
-                Location
+                <MapIcon style={{ "height": "100%", "width": "2.0vw" }} />Location<MapIcon style={{ "height": "100%", "width": "2.0vw" }} />
               </StyledCategory>
             </CustomStyledGradientTextWrapper>
+
+            {/* <h3>West </h3> */}
+          <StyledGradientTextWrapper>
+            <StyledTextContent>
+              West Palm Beach, FL
+            </StyledTextContent>
+          </StyledGradientTextWrapper>
+          <StyledIframe title="Map" src="https://www.google.com/maps/embed/v1/place?q=1900+Consulate+Pl,+West+Palm+Beach,+FL+33401&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" />
+
 
           </StyledSection>
         </StyledBox>

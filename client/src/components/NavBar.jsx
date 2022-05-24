@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { StyledNavBar, StyledNavButton, StyledNavDiv, StyledPopText } from '../styles';
+import { StyledNavBar, StyledNavButton, StyledNavDiv } from '../styles';
 import styled from 'styled-components/macro';
 
 const StyledFullHeader = styled.div`
@@ -11,16 +11,10 @@ const StyledFullHeader = styled.div`
 `;
 
 const StyledHeadingDiv = styled.div`
-  ${'' /* position: fixed; */}
-  ${'' /* top: 0; */}
-  ${'' /* height: 10vh; */}
-
   display: flex;
   width: 25vw;
   height: 100%;
   justify-content: center;
-  ${'' /* align-items: center; */}
-  ${'' /* align-content: center; */}
 `;
 
 const StyledHeading = styled.h1`
