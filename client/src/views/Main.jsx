@@ -6,27 +6,14 @@ import SideBar from '../components/SideBar';
 // import About from '../components/About';
 import { StyledMain } from '../styles';
 
-const StyledDiv = styled.div`
-  ${'' /* overflow: hidden;
-  position: fixed;
-  top: 0;
-  height: 16vh; */}
-  ${'' /* height: 20vh; */}
-  width: 100%;
-`;
-
-
 export default function Main() {
 
   return (
     <>
-      <StyledDiv>
-        <NavBar />
-        <Banner />
-      </StyledDiv>
-        <SideBar />
+      <NavBar />
+      <Banner />
+      <SideBar />
       <StyledMain>
-
         <Welcome />
       </StyledMain>
     </>

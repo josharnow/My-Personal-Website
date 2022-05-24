@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { StyledNavBar, StyledNavButton, StyledNavDiv } from '../styles';
+import { StyledNavBar, StyledNavButton, StyledNavDiv, StyledPopText } from '../styles';
 import styled from 'styled-components/macro';
 
 const StyledFullHeader = styled.div`
@@ -20,12 +20,29 @@ const StyledHeading = styled.h1`
   font-size: 4vw;
 `;
 
+const StyledLabelSpan = styled.span`
+  display: block;
+  background-color: transparent;
+  color: $button--color-1;
+  padding: 1.5em 2em;
+  transition: color 500ms ease,
+        background-color 500ms ease;
+  
+  .button:hover &,
+  .button:focus & {
+    color: $button--color-2;
+    background-color: rgba($button--color-1, 0.9);
+  }
+`;
+
 const NavBar = () => {
 
   return (
     <StyledFullHeader>
       <StyledHeading>
-        Josh Arnow
+        <StyledPopText>
+          Josh Arnow
+        </StyledPopText>
       </StyledHeading>
       <StyledNavBar>
         <StyledNavDiv>
@@ -41,6 +58,7 @@ const NavBar = () => {
           <StyledNavButton>
             Contact Me
           </StyledNavButton>
+          
         </StyledNavDiv>
       </StyledNavBar>
     </StyledFullHeader>

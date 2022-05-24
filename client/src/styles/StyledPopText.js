@@ -1,6 +1,8 @@
 import styled from 'styled-components/macro';
+import variables from './variables';
 
 const StyledPopText = styled.span`
+  ${variables};
   @import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
   font-family: 'Montserrat', sans-serif;
 
@@ -16,9 +18,9 @@ const StyledPopText = styled.span`
   ${'' /* letter-spacing:0.1em; */}
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: --dark-grey;
   text-shadow: 
-    0.3vw 0.3vh #345beb,
-    0.6vw 0.6vh #000000;
+    0.2vw 0.2vh #345beb,
+    0.3vw 0.3vh #000000;
 `;
 export default StyledPopText;
