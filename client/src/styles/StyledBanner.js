@@ -7,7 +7,7 @@ const StyledBanner = styled.div`
   display: flex;
   align-items: center;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 5vh;
   top: 10vh;
   ${'' /* top: 10vh; */}

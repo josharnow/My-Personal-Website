@@ -12,6 +12,7 @@ const StyledDiv = styled.div`
   top: 0;
   height: 16vh; */}
   ${'' /* height: 20vh; */}
+  width: 100%;
 `;
 
 
@@ -23,11 +24,10 @@ export default function Main() {
         <NavBar />
         <Banner />
       </StyledDiv>
+        <SideBar />
       <StyledMain>
 
-        <SideBar />
         <Welcome />
-        {/* <About /> */}
       </StyledMain>
     </>
   )

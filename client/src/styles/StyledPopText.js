@@ -18,7 +18,7 @@ const StyledPopText = styled.span`
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
   text-shadow: 
-    2px 2px #345beb,
-    4px 4px #000000;
+    0.3vw 0.3vh #345beb,
+    0.6vw 0.6vh #000000;
 `;
 export default StyledPopText;

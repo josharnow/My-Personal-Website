@@ -4,7 +4,10 @@ const StyledSideBar = styled.div`
   width: 25vw;
   background-color: black;
   height: 100%;
-  ${'' /* position: absolute; */}
+
+  position: fixed;
+  left: 0;
+  
   ${'' /* bottom: 0; */}
 
 
