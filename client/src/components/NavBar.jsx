@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { StyledNavBar, StyledNavButton, StyledNavDiv } from '../styles';
+import { StyledNavBar, StyledNavButton, StyledNavDiv, StyledNavLink } from '../styles';
 import styled from 'styled-components/macro';
 
 const StyledFullHeader = styled.div`
@@ -48,7 +48,7 @@ const NavBar = () => {
       </StyledHeadingDiv>
       <StyledNavBar>
         <StyledNavDiv>
-          <StyledNavButton>
+          {/* <StyledNavButton>
             Home
           </StyledNavButton>
           <StyledNavButton>
@@ -59,7 +59,23 @@ const NavBar = () => {
           </StyledNavButton>
           <StyledNavButton>
             Contact Me
-          </StyledNavButton>
+          </StyledNavButton> */}
+
+ {/* border-right: 5px solid black;
+  border-left: 5px solid black; */}
+
+          <StyledNavLink style={{"borderLeft": "3px solid #181818", "borderRight": "3px solid #181818"}}>
+            Home
+          </StyledNavLink>
+          <StyledNavLink>
+            About
+          </StyledNavLink>
+          <StyledNavLink style={{ "borderLeft": "3px solid #181818", "borderRight": "3px solid #181818" }}>
+            Portfolio
+          </StyledNavLink>
+          <StyledNavLink style={{  "borderRight": "3px solid #181818" }}>
+            Contact Me
+          </StyledNavLink>
           
         </StyledNavDiv>
       </StyledNavBar>

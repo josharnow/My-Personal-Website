@@ -16,6 +16,7 @@ export { default as StyledMultilayerText } from './StyledMultilayerText';
 export { default as StyledNavBar } from './StyledNavBar';
 export { default as StyledNavButton } from './StyledNavButton';
 export { default as StyledNavDiv } from './StyledNavDiv';
+export { default as StyledNavLink } from './StyledNavLink';
 export { default as StyledPopText } from './StyledPopText';
 export { default as StyledPortfolio } from './StyledPortfolio';
 export { default as StyledSection } from './StyledSection';
