@@ -8,10 +8,13 @@ const StyledNavButton = styled.button`
   ${'' /* padding: 2vw; */}
   ${'' /* margin: 1vh 1vw 1vh 1vw; */}
   font-family: var(--font);
-  background-color: #292929;
+  background-color: rgba(41,41,41,0.75);
+  ${'' /* background-color: rgba(255,0,0,0.5); */}
+  ${'' /* background-color: #292929; */}
   color: #fcfcfc;
   height: 100%;
-  width: fit-content;
+  width: 18.75vw;
+  ${'' /* width: fit-content; */}
   ${'' /* height: 100%; */}
   ${'' /* height: fit-content; */}
 

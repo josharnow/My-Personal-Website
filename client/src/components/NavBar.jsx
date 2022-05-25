@@ -41,11 +41,11 @@ const NavBar = () => {
 
   return (
     <StyledFullHeader>
-    <StyledHeadingDiv>
-      <StyledHeading>
-          Josh's Personal Site
-      </StyledHeading>
-    </StyledHeadingDiv>
+      <StyledHeadingDiv>
+        <StyledHeading>
+            Josh's Personal Site
+        </StyledHeading>
+      </StyledHeadingDiv>
       <StyledNavBar>
         <StyledNavDiv>
           <StyledNavButton>
