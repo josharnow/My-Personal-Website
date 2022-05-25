@@ -11,11 +11,13 @@ const StyledNavLink = styled.a`
   height: 100%;
   width: 18.75vw;
 
+
   ${'' /* border-right: 5px solid black;
   border-left: 5px solid black; */}
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   text-decoration: none;
   
   &:hover {
