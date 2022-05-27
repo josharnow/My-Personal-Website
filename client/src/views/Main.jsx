@@ -11,7 +11,7 @@ export default function Main() {
   return (
     <>
       <NavBar />
-      <Banner />
+      {/* <Banner /> */}
       <SideBar />
       <StyledMain>
         <Welcome />

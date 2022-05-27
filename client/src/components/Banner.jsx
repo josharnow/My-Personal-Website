@@ -3,7 +3,8 @@ import { StyledBanner } from '../styles';
 import styled from 'styled-components/macro';
 
 const StyledHeading = styled.h6`
-  color: #1f00eb;
+  ${'' /* color: #1f00eb; */}
+  color: #060166;
   text-align: center;
   font-weight: bold;
   margin: 0;
@@ -12,7 +13,7 @@ const StyledHeading = styled.h6`
   ${'' /* height: 100%; */}
   width: 100%;
   ${'' /* font-size: 2.0em; */}
-  font-size: 2.0vh;
+  font-size: 1.5vmin;
 `;
 
 

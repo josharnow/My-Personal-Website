@@ -7,6 +7,7 @@ const StyledSideBar = styled.div`
 
   position: fixed;
   left: 0;
+  ${'' /* top: 17vh; */}
   
   ${'' /* bottom: 0; */}
 

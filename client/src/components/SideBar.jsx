@@ -1,5 +1,6 @@
 // import { useEffect, useState } from 'react';
 import { StyledSideBar, StyledBox, StyledGradientTextWrapper, StyledMultilayerText, StyledPopText, StyledSection } from '../styles';
+import Banner from './Banner';
 import styled from 'styled-components/macro';
 import headshot from '../headshot.jpg';
 import MapIcon from '@mui/icons-material/Map';
@@ -101,6 +102,7 @@ const SideBar = () => {
   return (
     <StyledSideBar>
         <StyledBox>
+        <Banner />
           <StyledSection style={{ "backgroundColor": "#696868", "display": "flex", "flexDirection": "column", "margin": "2vh 2vw" }}>
             <StyledName>
               <CustomStyledPopText>

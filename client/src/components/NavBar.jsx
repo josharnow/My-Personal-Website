@@ -48,32 +48,16 @@ const NavBar = () => {
       </StyledHeadingDiv>
       <StyledNavBar>
         <StyledNavDiv>
-          {/* <StyledNavButton>
-            Home
-          </StyledNavButton>
-          <StyledNavButton>
-            About
-          </StyledNavButton>
-          <StyledNavButton>
-            Portfolio
-          </StyledNavButton>
-          <StyledNavButton>
-            Contact Me
-          </StyledNavButton> */}
-
- {/* border-right: 5px solid black;
-  border-left: 5px solid black; */}
-
-          <StyledNavLink style={{"borderLeft": "3px solid #181818", "borderRight": "3px solid #181818"}}>
+          <StyledNavLink style={{}}>
             Home
           </StyledNavLink>
-          <StyledNavLink>
+          <StyledNavLink style={ { "borderLeft": "3px solid #181818" } }>
             About
           </StyledNavLink>
           <StyledNavLink style={{ "borderLeft": "3px solid #181818", "borderRight": "3px solid #181818" }}>
             Portfolio
           </StyledNavLink>
-          <StyledNavLink style={{  "borderRight": "3px solid #181818" }}>
+          <StyledNavLink style={{}}>
             Contact Me
           </StyledNavLink>
           
