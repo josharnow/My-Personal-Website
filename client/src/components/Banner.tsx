@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { FC, useEffect, useState } from 'react';
 import { StyledBanner } from '../styles';
 import styled from 'styled-components/macro';
 
@@ -17,7 +17,7 @@ const StyledHeading = styled.h6`
 `;
 
 
-const Banner = () => {
+const Banner:FC = () => {
 
   return (
       <StyledBanner>

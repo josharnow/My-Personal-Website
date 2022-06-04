@@ -19,6 +19,9 @@ const StyledPopText = styled.span`
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: --dark-grey;
+  ${'' /* text-shadow: 
+    1.50vw 1.50vh #345beb,
+    0.32vw 0.32vh #000000; */}
   text-shadow: 
     0.16vw 0.16vh #345beb,
     0.32vw 0.32vh #000000;

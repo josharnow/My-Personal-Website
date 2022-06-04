@@ -1,12 +1,13 @@
-import { useEffect, useState } from 'react';
+import { FC, useEffect, useState } from 'react';
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 // import React from "react";
 import { skills } from "../data";
 import { StyledSection } from '../styles';
 
-const Skills = () => {
+const Skills:FC = () => {
 
   return (
+    <h1>TEMPORARY (Skills)</h1>
     // <StyledSection id="skills">
     //   <div className="container px-5 py-10 mx-auto">
     //     <div className="text-center mb-20">

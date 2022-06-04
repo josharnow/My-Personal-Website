@@ -2,6 +2,7 @@
 import { StyledBox, StyledSection } from '../styles';
 // import Box from '@mui/material/Box';
 import styled from 'styled-components/macro';
+import { FC } from 'react';
 
 const StyledDiv = styled.div`
   display: flex;
@@ -14,7 +15,7 @@ const StyledHeading = styled.h1`
   margin: 0;
 `;
 
-const Welcome = () => {
+const Welcome:FC = () => {
 
   return (
     <StyledDiv>

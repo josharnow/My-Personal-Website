@@ -13,6 +13,7 @@ const StyledSection = styled.section`
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.50);
   ${'' /* box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%); */}
   background-color: rgb(154 162 245 / 60%);
+  ${'' /* background-color: rgba(154 162 245 / 60%); */}
 
   ${'' /* background: papayawhip; */}
   ${'' /* position: absolute;

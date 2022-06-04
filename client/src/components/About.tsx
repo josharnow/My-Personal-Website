@@ -1,7 +1,8 @@
 // import { useEffect, useState } from 'react';
+import { FC } from 'react';
 import { StyledSection } from '../styles';
 
-const About = () => {
+const About:FC = () => {
 
   return (
     <StyledSection id="about">

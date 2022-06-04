@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { FC, useEffect, useState } from 'react';
 import { StyledNavBar, StyledNavButton, StyledNavDiv, StyledNavLink } from '../styles';
 import styled from 'styled-components/macro';
 
@@ -33,11 +33,14 @@ const StyledHeading = styled.h1`
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #282828;
   text-shadow:
+    0.13vw 0.13vh #345beb,
+    0.26vw 0.26vh #000000;
+  ${'' /* text-shadow:
     0.16vw 0.16vh #345beb,
-    0.32vw 0.32vh #000000;
+    0.32vw 0.32vh #000000; */}
 `;
 
-const NavBar = () => {
+const NavBar:FC = () => {
 
   return (
     <StyledFullHeader>

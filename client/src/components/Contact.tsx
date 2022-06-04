@@ -1,9 +1,10 @@
-import { useEffect, useState } from 'react';
+import { FC, useEffect, useState } from 'react';
 import { StyledSection } from '../styles';
 
-const Contact = () => {
+const Contact:FC = () => {
 
   return (
+    <h1>TEMPORARY (Contact)</h1>
     // <StyledSection id="contact" className="relative">
     //   <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
     //     <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">

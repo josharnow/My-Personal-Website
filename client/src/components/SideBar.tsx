@@ -2,20 +2,24 @@
 import { StyledSideBar, StyledBox, StyledGradientTextWrapper, StyledMultilayerText, StyledPopText, StyledSection } from '../styles';
 import Banner from './Banner';
 import styled from 'styled-components/macro';
+// @ts-ignore
 import headshot from '../headshot.jpg';
 import MapIcon from '@mui/icons-material/Map';
+import { FC } from 'react';
 
 const StyledName = styled.h1`
   margin: 2vh 0;
   text-align: center;
   line-height: 1.0em;
-  font-size: 4.2vw;
+  font-size: 4.2vmin;
+  ${'' /* font-size: 4.2vw; */}
   font-weight: bold;
 `;
 
 const StyledTitle = styled.h2`
   ${'' /* font-size: 2.5vmin; */}
   font-size: 2.3vw;
+
   margin: 0.5vh 0 2vh 0;
   font-style: italic;
   font-weight: bold;
@@ -30,10 +34,12 @@ const StyledCategory = styled.h2`
 `;
 
 const StyledImage = styled.img`
-  width: 50%;
+  width: 7.5vmin;
+  ${'' /* width: 50%; */}
   border-radius: 50%; 
   align-self: center;
-  margin: 1vh 0;
+  margin: 0 0 1vh;
+  ${'' /* margin: 1vh 0; */}
 `;
 
 const CustomStyledPopText = styled.span`
@@ -46,23 +52,11 @@ const CustomStyledPopText = styled.span`
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #b22234;
   text-shadow:
+    0.13vw 0.13vh #ffffff,
+    0.26vw 0.26vh #3c3b6e;
+  ${'' /* text-shadow:
     0.16vw 0.16vh #ffffff,
-    0.32vw 0.32vh #3c3b6e;
-
-  ${'' /* background: linear-gradient(
-    to right, 
-    hsl(98 100% 62%), 
-    hsl(204 100% 59%)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 
-    0.15vw 0.15vh #345beb,
-    0.3vw 0.3vh #000000; */}
-  ${'' /* filter: drop-shadow(2px 2px #333) */}
-  ${'' /* transform: translate(-50%, -50%); */}
-
-    
+    0.32vw 0.32vh #3c3b6e; */}
 `;
 
 const CustomStyledGradientTextWrapper = styled.div`
@@ -97,13 +91,13 @@ const StyledTextContent = styled.h3`
   margin: 0;
 `;
 
-const SideBar = () => {
+const SideBar:FC = () => {
 
   return (
     <StyledSideBar>
         <StyledBox>
-        <Banner />
-          <StyledSection style={{ "backgroundColor": "#696868", "display": "flex", "flexDirection": "column", "margin": "2vh 2vw" }}>
+          <Banner />
+          <StyledSection style={{ "backgroundColor": "rgba(105, 104, 104, 90%)", "display": "flex", "flexDirection": "column", "margin": "2vh 2vw" }}>
             <StyledName>
               <CustomStyledPopText>
                 Joshua D. Arnow
@@ -133,7 +127,6 @@ const SideBar = () => {
             </StyledTextContent>
           </StyledGradientTextWrapper>
           <StyledIframe title="Map" src="https://www.google.com/maps/embed/v1/place?q=1900+Consulate+Pl,+West+Palm+Beach,+FL+33401&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" />
-
 
           </StyledSection>
         </StyledBox>
