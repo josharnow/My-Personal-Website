@@ -96,7 +96,7 @@ const SideBar:FC = () => {
   return (
     <StyledSideBar>
         <StyledBox>
-          <Banner />
+          {/* <Banner /> */}
           <StyledSection style={{ "backgroundColor": "rgba(105, 104, 104, 90%)", "display": "flex", "flexDirection": "column", "margin": "2vh 2vw" }}>
             <StyledName>
               <CustomStyledPopText>

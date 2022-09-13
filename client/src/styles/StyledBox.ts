@@ -5,8 +5,11 @@ const StyledBox = styled.div`
   ${'' /* width: fit-content;
   height: fit-content; */}
 
--webkit-backdrop-filter: blur(20px);  /* Safari 9+ */
-backdrop-filter: blur(20px); /* Chrome and Opera */
+${''/* -webkit-backdrop-filter: blur(20px); */}
+${''/* backdrop-filter: blur(20px); */}
+
+
+
 ${'' /* box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%); */}
 ${'' /* background-color: rgb(154 162 245 / 60%); */}
 

@@ -1,7 +1,8 @@
 import styled from 'styled-components/macro';
 import variables from './variables';
+import { Link } from "react-router-dom";
 
-const StyledNavLink = styled.a`
+const StyledNavLink = styled(Link)`
   ${variables};
   
   align-self: center;

@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { GlobalStyle } from './styles';
 import './App.css';
 import Main from './views/Main';
+import About from './views/About';
 
 // export default function App() {
 function App() {
@@ -29,6 +30,7 @@ function App() {
         {/* when a <Switch> is rendered, it searches through its children <Route> elements to find one whose path matches the current URL. When it finds one, it renders that <Route> and ignores all others. Therefore, routes with more specific (typically longer) paths should be listed before less-specific ones. */ }
 
         <Route path="/" element={ <Main /> } />
+        <Route path="/about" element={ <About /> } />
       </Routes>
     </BrowserRouter>
   );

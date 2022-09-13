@@ -51,16 +51,16 @@ const NavBar:FC = () => {
       </StyledHeadingDiv>
       <StyledNavBar>
         <StyledNavDiv>
-          <StyledNavLink style={{}}>
+          <StyledNavLink to={"/"} style={{}}>
             Home
           </StyledNavLink>
-          <StyledNavLink style={ { "borderLeft": "3px solid #181818" } }>
+          <StyledNavLink to={"/about"} style={ { "borderLeft": "3px solid #181818" } }>
             About
           </StyledNavLink>
-          <StyledNavLink style={{ "borderLeft": "3px solid #181818", "borderRight": "3px solid #181818" }}>
+          <StyledNavLink to={"/portfolio"} style={{ "borderLeft": "3px solid #181818", "borderRight": "3px solid #181818" }}>
             Portfolio
           </StyledNavLink>
-          <StyledNavLink style={{}}>
+          <StyledNavLink to={"/contact"} style={{}}>
             Contact Me
           </StyledNavLink>
           
