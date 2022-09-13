@@ -4,6 +4,8 @@ import { GlobalStyle } from './styles';
 import './App.css';
 import Main from './views/Main';
 import About from './views/About';
+import Portfolio from './views/Portfolio';
+import Contact from './views/Contact';
 
 // export default function App() {
 function App() {
@@ -31,6 +33,8 @@ function App() {
 
         <Route path="/" element={ <Main /> } />
         <Route path="/about" element={ <About /> } />
+        <Route path="/portfolio" element={ <Portfolio /> } />
+        <Route path="/contact" element={ <Contact /> } />
       </Routes>
     </BrowserRouter>
   );

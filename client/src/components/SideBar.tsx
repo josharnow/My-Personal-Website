@@ -18,7 +18,7 @@ const StyledName = styled.h1`
 
 const StyledTitle = styled.h2`
   ${'' /* font-size: 2.5vmin; */}
-  font-size: 2.3vw;
+  font-size: 2.0vw;
 
   margin: 0.5vh 0 2vh 0;
   font-style: italic;
@@ -121,12 +121,13 @@ const SideBar:FC = () => {
             </CustomStyledGradientTextWrapper>
 
             {/* <h3>West </h3> */}
-          <StyledGradientTextWrapper>
-            <StyledTextContent>
-              West Palm Beach, FL
-            </StyledTextContent>
-          </StyledGradientTextWrapper>
-          <StyledIframe title="Map" src="https://www.google.com/maps/embed/v1/place?q=1900+Consulate+Pl,+West+Palm+Beach,+FL+33401&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" />
+            <StyledGradientTextWrapper>
+              <StyledTextContent>
+                West Palm Beach, FL
+              </StyledTextContent>
+            </StyledGradientTextWrapper>
+            <StyledIframe title="Map" src="https://www.google.com/maps/embed/v1/place?q=1900+Consulate+Pl,+West+Palm+Beach,+FL+33401&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" />
+            
 
           </StyledSection>
         </StyledBox>
